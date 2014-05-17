@@ -14971,6 +14971,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 <part name="R2_LOW" library="rcl" deviceset="R-EU_" device="R0603" value="0"/>
 <part name="R3_FAST" library="rcl" deviceset="R-EU_" device="R0603" value="0"/>
+<part name="JP9" library="SparkFun-Connectors" deviceset="M01" device="SMD-4.5X1.5"/>
 </parts>
 <sheets>
 <sheet>
@@ -15050,6 +15051,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <instance part="R1" gate="G$1" x="-68.58" y="-40.64" rot="R180"/>
 <instance part="R2_LOW" gate="G$1" x="-58.42" y="-7.62" rot="R180"/>
 <instance part="R3_FAST" gate="G$1" x="-73.66" y="-7.62" rot="R180"/>
+<instance part="JP9" gate="G$1" x="-30.48" y="35.56" smashed="yes" rot="MR180">
+<attribute name="VALUE" x="-45.72" y="40.64" size="1.778" layer="96" rot="MR180"/>
+<attribute name="NAME" x="-33.02" y="32.258" size="1.778" layer="95" rot="MR180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -15470,6 +15475,10 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <wire x1="-7.62" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
 <label x="-5.08" y="33.02" size="1.778" layer="95" rot="MR180"/>
 <pinref part="LED1" gate="G$1" pin="DIN"/>
+<wire x1="-22.86" y1="35.56" x2="-7.62" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="JP9" gate="G$1" pin="1"/>
+<wire x1="-7.62" y1="35.56" x2="-7.62" y2="30.48" width="0.1524" layer="91"/>
+<junction x="-7.62" y="30.48"/>
 </segment>
 </net>
 <net name="SIG_IN" class="0">
