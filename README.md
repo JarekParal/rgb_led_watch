@@ -4,6 +4,8 @@ RGB LED watch base on inteligent LED WS2812.
 
 [Presentation video](https://youtu.be/sHXETtNtYNM)
 
+License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/?)
+
 <img src="docs/rgb_led_watch_dps_top.jpg"	title="rgb_led_watch - top" height="500" /> <img src="docs/rgb_led_watch_dps_btn.jpg" title="rgb_led_watch - bottom" height="500" />
   
 ## Schema
