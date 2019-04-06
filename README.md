@@ -1,6 +1,6 @@
 # rgb_led_watch
 
-RGB LED watch base on inteligent LED WS2812.
+RGB LED watch base on intelligent LED WS2812.
 
 [Presentation video](https://youtu.be/sHXETtNtYNM)
 
